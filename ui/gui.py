@@ -285,7 +285,10 @@ class PEasyAnalyzerGUI:
         except Exception as e:
             self.output_text.insert(tk.END, f"❌ Error: {e}\n")
 
+
     def save_report(self):
+        print("Save button clicked")
+        print("file_data:", self.file_data)
         if not self.file_data:
             messagebox.showwarning("No Analysis", "Run an analysis before saving a report.")
             return
