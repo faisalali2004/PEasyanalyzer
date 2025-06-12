@@ -1,0 +1,70 @@
+--- PEasyAnalyzer Report ---
+
+File: python-3.10.9-amd64.exe
+Machine Type: 0x14c
+Number of Sections: 6
+TimeDateStamp: 2017-11-18 22:00:38
+Entry Point: 0x2e2a6
+Image Base: 0x400000
+Subsystem: Windows GUI
+Compiler Magic: 0x10b
+DLL Characteristics: ['Dynamic Base', 'NX Compatible', 'Guard CF']
+Size of Code: 301568
+Size of Initialized Data: 237056
+Size of Uninitialized Data: 0
+Executable Type: EXE
+
+Packer Detection:
+- None detected
+
+Suspicious Strings (Top 50):
+- 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+- 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+- DigiCert Trusted Root G40
+- Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+- Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+- Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+- Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+- Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+- 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+- 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+- http://www.digicert.com/CPS0
+- http://ocsp.digicert.com0A
+- 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+- 2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+- DigiCert Assured ID Root CA0
+- http://ocsp.digicert.com0\
+- http://ocsp.digicert.com0X
+- http://ocsp.digicert.com0C
+- <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"><assemblyIdentity name="setup.exe" version="1.0.0.0" processorArchitecture="x86" type="win32"></assemblyIdentity><description>WiX Toolset Bootstrapper</description><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="X86" publicKeyToken="6595b64144ccf1df" language="*"></assemblyIdentity></dependentAssembly></dependency><trustInfo xmlns="urn:schemas-microsoft-com:asm.v3"><security><requestedPrivileges><requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel></requestedPrivileges></security></trustInfo><compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"><application><supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS><supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"></supportedOS><supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS><supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"></supportedOS><supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"></supportedOS></application></compatibility></assembly>PAPADD
+- Plan skipped related bundle: %1!ls!, type: %2!hs!, provider key: %3!ls!, because an embedded bundle with the same provider key is being installed.
+- Updating session, registration key: %1!ls!, resume: %2!hs!, restart initiated: %3!hs!, disable resume: %4!hs!
+- Plan skipped removal of provider key: %1!ls! because it is registered to a different bundle: %2!ls!
+- Session end, registration key: %1!ls!, resume: %2!hs!, restart: %3!hs!, disable resume: %4!hs!
+- Searching registry for approved exe path, key: %1!ls!, value: '%2!ls!', win64: %3!ls!
+- Failed to add the package provider key "%ls" to the list of ignored dependencies.
+- Session begin, registration key: %1!ls!, options: 0x%2!x!, disable resume: %3!hs!
+- Failed to add the bundle provider key "%ls" to the list of ignored dependencies.
+- Failed to add the bundle provider key to the list of dependencies to ignore.
+- Failed to check the dictionary for a related bundle provider key: "%ls".
+- Failed to copy dependent provider key to rollback registration action.
+- Failed to execute dependent registration action for provider key: %ls
+- Failed to add dependent bundle provider key to ignore dependents.
+- Failed to add the package provider key "%ls" to the planned list.
+- Failed to allocate access for Administrators group to path: %ls
+- Failed to overwrite the bundle provider key built-in variable.
+- Failed to open uninstall key for potential related bundle: %ls
+- Failed to get the formatted key path for update registration.
+- Failed to copy dependent provider key to registration action.
+- Failed to read size of verification secret from parent pipe.
+- Must specify the elevated name, token and parent process id.
+- Must specify the embedded name, token and parent process id.
+- Failed to open the registry key for the approved exe path.
+- Failed to hex decode @CertificateRootPublicKeyIdentifier.
+- Failed to allocate access for Everyone group to path: %ls
+- Failed to write dependent provider key to message buffer.
+- Failed to read bundle dependency key from message buffer.
+- Failed to read provider key from registry for bundle: %ls
+- Failed to copy key for passthrough pseudo bundle payload.
+- 8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+- Failed to find expected public key in certificate chain.
